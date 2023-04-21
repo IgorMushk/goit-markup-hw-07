@@ -37,6 +37,9 @@ address {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .list {
@@ -56,7 +59,8 @@ body {
 }
 
 .container {
-  width: 1158px;
+  /* width: 1158px; */
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -64,8 +68,12 @@ body {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* desctop */
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  /* mobile - tab*/
+  padding-top: 96px;
+  padding-bottom: 82px;
 }
 
 /* --------- HEADER ----------------------------------------- */
@@ -339,7 +347,17 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
+}
+
+/* mobile */
+.team-list li {
+  /* .team-list *:not(.team-soc-item) li { */
+  /* flex-basis: 100%; */
+  width: 264px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
@@ -1010,4 +1028,50 @@ body {
 
 .modal-form-batton:hover {
   background-color: var(--color-btn-hover);
+}
+
+/* ============================================================== */
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 582px;
+  }
+
+  .team-list {
+    justify-content: center;
+    gap: 64px 24px;
+  }
+  .team-list li {
+    /* flex-basis: calc(552px - 24px) / 2; */
+    /* width: calc(552px - 24px) / 2; */
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+      gap: 24px;
+  }
+
+  .team-list li {
+    /* flex-basis: calc(100% - 72px) / 4; */
+  }
+
 }
