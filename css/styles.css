@@ -1103,6 +1103,10 @@ body {
     /* width: calc(552px - 24px) / 2; */
   }
 
+  .customers-list {
+    gap: 24px;
+  }
+
   .customers-item {
     /* justify-content: center; */
     width: 168px;
