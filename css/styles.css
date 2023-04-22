@@ -311,7 +311,7 @@ body {
 
 /* --------- DOING  ----------------------------------------- */
 
-.doing {
+/* .doing {
   padding-bottom: 120px;
 }
 
@@ -332,9 +332,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  /* NAVY BLUE */
   color: #2e2f42;
   margin-bottom: 72px;
+} */
+
+@media screen and (max-width: 1199px) {
+  .doing  {
+    display: none;
+  }
 }
 
 /* --------- TEAM  ----------------------------------------- */
@@ -1156,6 +1161,33 @@ body {
     padding-bottom: 120px;
   }
 
+
+.doing {
+  padding-bottom: 120px;
+}
+
+.doing-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.doing-item {
+  flex-basis: auto;
+}
+
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+
   .team-list {
     gap: 24px;
   }
@@ -1168,8 +1200,6 @@ body {
     /* width: 168px; */
     flex-basis: calc((100% - 120px) / 6);
   }
-
-
 
   .footer-logo {
     margin-right: 120px;
