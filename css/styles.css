@@ -220,8 +220,8 @@ body {
 }
 
 .hero-title {
-  /* font-weight: 700;
-  font-size: 56px;
+  font-weight: 700;
+  /*font-size: 56px;
   line-height: 1.07; */
   /* mobile + */
   font-size: 36px;
@@ -232,7 +232,7 @@ body {
   color: #ffffff;
   /* width: 496px; */
   /* mobile + */
-  width: 320px;
+  max-width: 320px;
 
   /* margin-bottom: 48px; */
   /* mobile +  */
