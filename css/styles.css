@@ -200,11 +200,16 @@ body {
 
 .hero {
   background: var(--main-hero-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  /* mobile */
+  padding-top: 112px;
+  padding-bottom: 112px;
+  
   text-align: center;
 
-  max-width: 1440px;
+  /* mobile - */
+  /* max-width: 1440px; */
   /* height: 600px; */
   margin-left: auto;
   margin-right: auto;
@@ -215,14 +220,24 @@ body {
 }
 
 .hero-title {
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07; */
+  /* mobile + */
+  font-size: 36px;
+  line-height: calc(40 / 36);
+
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
-  margin-bottom: 48px;
+  /* width: 496px; */
+  /* mobile + */
+  width: 320px;
+
+  /* margin-bottom: 48px; */
+  /* mobile +  */
+  margin-bottom: 72px;
+
   margin-left: auto;
   margin-right: auto;
 }
