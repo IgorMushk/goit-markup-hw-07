@@ -40,6 +40,10 @@
     width: 768px;
   }
 
+  .menu-open-btn {
+    display: none;
+  }
+
   /* -- Header from destop */
   .header-list {
     display: flex;
@@ -59,9 +63,10 @@
   }
 
   .header-address-list {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 40px; */
+    display: block;
   }
 
   .header-link {
@@ -115,9 +120,12 @@
   } */
 
   .adress-info {
-    font-weight: 400;
+    /* font-weight: 400;
     font-size: 16px;
-    line-height: (24/16);
+    line-height: (24/16); */
+    font-weight: 400;
+    font-size: 12px;
+    line-height: CALC(14/12);
     letter-spacing: 0.02em;
     color: #434455;
   }
@@ -214,6 +222,18 @@
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .header-address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .adress-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: (24/16);
   }
 
   .hero {
