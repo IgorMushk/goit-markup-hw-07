@@ -45,12 +45,8 @@
   }
 
   .header {
-    padding-top: 17px;
-    padding-bottom: 17px;
-  }
-
-  .mob-address-item:not(:last-child) {
-    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   /* -- Header from destop */
@@ -139,6 +135,10 @@
     color: #434455;
   }
   /* == */
+
+  .contact-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
 
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
@@ -248,6 +248,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: (24/16);
+  }
+
+  .contact-item:not(:last-child) {
+    margin-bottom: 0;
   }
 
   .hero {
