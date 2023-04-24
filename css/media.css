@@ -44,6 +44,15 @@
     display: none;
   }
 
+  .header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+
+  .mob-address-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
   /* -- Header from destop */
   .header-list {
     display: flex;
@@ -125,7 +134,7 @@
     line-height: (24/16); */
     font-weight: 400;
     font-size: 12px;
-    line-height: CALC(14/12);
+    line-height: calc(14 / 12);
     letter-spacing: 0.02em;
     color: #434455;
   }
@@ -222,6 +231,11 @@
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .header-address-list {
