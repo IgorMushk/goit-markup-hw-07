@@ -74,7 +74,7 @@ body {
   padding-bottom: 120px; */
   /* mobile - tab*/
   padding-top: 96px;
-  padding-bottom: 82px;
+  padding-bottom: 96px;
 }
 
 /* --------- HEADER ----------------------------------------- */
@@ -240,8 +240,8 @@ body {
 }
 
 .mob-soc-icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24x;
   fill: #f4f4fd;
 }
 
@@ -577,9 +577,10 @@ body {
 
 .customers-item {
   /* width: 168px; */
-  max-width: 190px;
+  /* max-width: 190px; */
+  width: 190px;
   height: 88px;
-  flex-basis: calc((100% - 16px) / 2);
+  /* flex-basis: calc((100% - 16px) / 2); */ /* при фиксированной шмрине ставить в один столбец при сужении экрана*/
   /* outline: 1px solid red; */
 }
 
